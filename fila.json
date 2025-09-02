@@ -1,0 +1,1212 @@
+[
+  {
+    "_id": "68b5e1e62c81c9409a2b906a",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "KIT-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:11:51.559Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:12:16.589Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:11:51.559Z",
+        "finishedAt": "2025-09-01T18:11:52.565Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:11:52.568Z",
+        "finishedAt": "2025-09-01T18:11:57.566Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:11:57.568Z",
+        "finishedAt": "2025-09-01T18:12:09.576Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:12:09.578Z",
+        "finishedAt": "2025-09-01T18:12:13.583Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:12:13.585Z",
+        "finishedAt": "2025-09-01T18:12:16.587Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:12:16.590Z",
+        "finishedAt": "2025-09-01T18:12:18.591Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:11:50.678Z",
+    "updatedAt": "2025-09-01T18:12:18.684Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b5e21d2c81c9409a2b90e5",
+    "payload": {
+      "orderId": "ABC-001",
+      "sku": "KIT-01a"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:12:45.633Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:13:11.677Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:12:45.633Z",
+        "finishedAt": "2025-09-01T18:12:46.635Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:12:46.637Z",
+        "finishedAt": "2025-09-01T18:12:52.643Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:12:52.645Z",
+        "finishedAt": "2025-09-01T18:13:04.664Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:13:04.666Z",
+        "finishedAt": "2025-09-01T18:13:08.671Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:13:08.673Z",
+        "finishedAt": "2025-09-01T18:13:11.675Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:13:11.677Z",
+        "finishedAt": "2025-09-01T18:13:13.677Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:12:45.547Z",
+    "updatedAt": "2025-09-01T18:13:13.683Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b5e6c52c81c9409a2b9a42",
+    "payload": {
+      "orderId": "joh-123",
+      "sku": "joh-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:32:38.230Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:33:05.267Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:32:38.230Z",
+        "finishedAt": "2025-09-01T18:32:40.234Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:32:40.235Z",
+        "finishedAt": "2025-09-01T18:32:45.238Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:32:45.240Z",
+        "finishedAt": "2025-09-01T18:32:57.253Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:32:57.255Z",
+        "finishedAt": "2025-09-01T18:33:01.260Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:33:01.262Z",
+        "finishedAt": "2025-09-01T18:33:05.264Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:33:05.267Z",
+        "finishedAt": "2025-09-01T18:33:07.266Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:32:37.333Z",
+    "updatedAt": "2025-09-01T18:33:07.272Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b5e8132c81c9409a2b9cf0",
+    "payload": {
+      "orderId": "rafa-001",
+      "sku": "r-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:38:12.658Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:38:39.703Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:38:12.658Z",
+        "finishedAt": "2025-09-01T18:38:14.662Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:38:14.663Z",
+        "finishedAt": "2025-09-01T18:38:20.671Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:38:20.673Z",
+        "finishedAt": "2025-09-01T18:38:31.691Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:38:31.692Z",
+        "finishedAt": "2025-09-01T18:38:36.696Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:38:36.698Z",
+        "finishedAt": "2025-09-01T18:38:39.701Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:38:39.703Z",
+        "finishedAt": "2025-09-01T18:38:42.704Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:38:11.698Z",
+    "updatedAt": "2025-09-01T18:38:42.709Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b5eab32c81c9409a2ba245",
+    "payload": {
+      "orderId": "rafa-002",
+      "sku": "r-02"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:49:23.514Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:49:48.553Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:49:23.514Z",
+        "finishedAt": "2025-09-01T18:49:25.516Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:49:25.518Z",
+        "finishedAt": "2025-09-01T18:49:30.522Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:49:30.524Z",
+        "finishedAt": "2025-09-01T18:49:41.541Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:49:41.543Z",
+        "finishedAt": "2025-09-01T18:49:45.547Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:49:45.549Z",
+        "finishedAt": "2025-09-01T18:49:48.551Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:49:48.553Z",
+        "finishedAt": "2025-09-01T18:49:51.555Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:49:23.486Z",
+    "updatedAt": "2025-09-01T18:49:51.560Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b5ec562c81c9409a2ba59e",
+    "payload": {
+      "orderId": "chr-001",
+      "sku": "gcr-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T18:56:23.066Z",
+    "lockedBy": "sim-dkek65",
+    "stageStartedAt": "2025-09-01T18:56:49.091Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T18:56:23.066Z",
+        "finishedAt": "2025-09-01T18:56:24.068Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T18:56:24.069Z",
+        "finishedAt": "2025-09-01T18:56:30.072Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T18:56:30.074Z",
+        "finishedAt": "2025-09-01T18:56:41.083Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T18:56:41.085Z",
+        "finishedAt": "2025-09-01T18:56:46.087Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T18:56:46.088Z",
+        "finishedAt": "2025-09-01T18:56:49.089Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T18:56:49.091Z",
+        "finishedAt": "2025-09-01T18:56:51.092Z"
+      }
+    ],
+    "createdAt": "2025-09-01T18:56:22.166Z",
+    "updatedAt": "2025-09-01T18:56:51.096Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b61bc785ea8b82c41e31f4",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "Produto x"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-01T22:18:48.332Z",
+    "lockedBy": "sim-5lziyo",
+    "stageStartedAt": "2025-09-01T22:19:14.359Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-01T22:18:48.332Z",
+        "finishedAt": "2025-09-01T22:18:50.334Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-01T22:18:50.338Z",
+        "finishedAt": "2025-09-01T22:18:56.339Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-01T22:18:56.341Z",
+        "finishedAt": "2025-09-01T22:19:07.347Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-01T22:19:07.349Z",
+        "finishedAt": "2025-09-01T22:19:11.352Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-01T22:19:11.354Z",
+        "finishedAt": "2025-09-01T22:19:14.357Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-01T22:19:14.359Z",
+        "finishedAt": "2025-09-01T22:19:17.363Z"
+      }
+    ],
+    "createdAt": "2025-09-01T22:18:47.688Z",
+    "updatedAt": "2025-09-01T22:19:17.439Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7291d21c2f2c7fb07df78",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "KIT-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T17:27:57.910Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T17:28:22.952Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T17:27:57.910Z",
+        "finishedAt": "2025-09-02T17:27:59.914Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T17:27:59.917Z",
+        "finishedAt": "2025-09-02T17:28:04.922Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T17:28:04.924Z",
+        "finishedAt": "2025-09-02T17:28:13.936Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T17:28:13.938Z",
+        "finishedAt": "2025-09-02T17:28:18.942Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T17:28:18.945Z",
+        "finishedAt": "2025-09-02T17:28:22.950Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T17:28:22.952Z",
+        "finishedAt": "2025-09-02T17:28:24.953Z"
+      }
+    ],
+    "createdAt": "2025-09-02T17:27:57.464Z",
+    "updatedAt": "2025-09-02T17:28:25.070Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7297f21c2f2c7fb07e04b",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "bonita"
+      }
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T17:29:36.060Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T17:29:59.092Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T17:29:36.060Z",
+        "finishedAt": "2025-09-02T17:29:37.060Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T17:29:37.063Z",
+        "finishedAt": "2025-09-02T17:29:43.069Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T17:29:43.071Z",
+        "finishedAt": "2025-09-02T17:29:52.082Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T17:29:52.084Z",
+        "finishedAt": "2025-09-02T17:29:56.087Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T17:29:56.089Z",
+        "finishedAt": "2025-09-02T17:29:59.090Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T17:29:59.092Z",
+        "finishedAt": "2025-09-02T17:30:02.104Z"
+      }
+    ],
+    "createdAt": "2025-09-02T17:29:35.981Z",
+    "updatedAt": "2025-09-02T17:30:02.122Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b729d221c2f2c7fb07e100",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "KIT-01"
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T17:30:59.177Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T17:31:27.212Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T17:30:59.177Z",
+        "finishedAt": "2025-09-02T17:31:01.180Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T17:31:01.183Z",
+        "finishedAt": "2025-09-02T17:31:07.186Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T17:31:07.188Z",
+        "finishedAt": "2025-09-02T17:31:18.197Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T17:31:18.199Z",
+        "finishedAt": "2025-09-02T17:31:23.205Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T17:31:23.207Z",
+        "finishedAt": "2025-09-02T17:31:27.210Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T17:31:27.212Z",
+        "finishedAt": "2025-09-02T17:31:30.214Z"
+      }
+    ],
+    "createdAt": "2025-09-02T17:30:58.755Z",
+    "updatedAt": "2025-09-02T17:31:30.219Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b730ef21c2f2c7fb07ef58",
+    "payload": {
+      "orderId": "Rafael-001",
+      "sku": "KITkat-01",
+      "order": {
+        "caixa": "meia boca"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:01:20.539Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:01:47.580Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:01:20.539Z",
+        "finishedAt": "2025-09-02T18:01:22.543Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:01:22.546Z",
+        "finishedAt": "2025-09-02T18:01:28.553Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:01:28.554Z",
+        "finishedAt": "2025-09-02T18:01:39.567Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:01:39.569Z",
+        "finishedAt": "2025-09-02T18:01:44.574Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:01:44.576Z",
+        "finishedAt": "2025-09-02T18:01:47.577Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:01:47.580Z",
+        "finishedAt": "2025-09-02T18:01:50.583Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:01:19.943Z",
+    "updatedAt": "2025-09-02T18:01:50.596Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7310521c2f2c7fb07ef8d",
+    "payload": {
+      "orderId": "Giovani-001",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "fuleira"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:01:51.584Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:02:17.624Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:01:51.584Z",
+        "finishedAt": "2025-09-02T18:01:52.585Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:01:52.587Z",
+        "finishedAt": "2025-09-02T18:01:57.592Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:01:57.594Z",
+        "finishedAt": "2025-09-02T18:02:08.607Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:02:08.609Z",
+        "finishedAt": "2025-09-02T18:02:13.617Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:02:13.619Z",
+        "finishedAt": "2025-09-02T18:02:17.622Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:02:17.624Z",
+        "finishedAt": "2025-09-02T18:02:20.625Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:01:41.843Z",
+    "updatedAt": "2025-09-02T18:02:20.633Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7316b21c2f2c7fb07f06c",
+    "payload": {
+      "orderId": "Jaime-001",
+      "sku": "KIT-03",
+      "order": {
+        "caixa": "caixa-jaime"
+      }
+    },
+    "callbackUrl": "http://chamadafake:3002/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:03:23.706Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:03:52.733Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:03:23.706Z",
+        "finishedAt": "2025-09-02T18:03:25.707Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:03:25.709Z",
+        "finishedAt": "2025-09-02T18:03:31.714Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:03:31.716Z",
+        "finishedAt": "2025-09-02T18:03:43.723Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:03:43.725Z",
+        "finishedAt": "2025-09-02T18:03:48.727Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:03:48.729Z",
+        "finishedAt": "2025-09-02T18:03:52.731Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:03:52.733Z",
+        "finishedAt": "2025-09-02T18:03:55.735Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:03:23.247Z",
+    "updatedAt": "2025-09-02T18:03:55.742Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7316c21c2f2c7fb07f073",
+    "payload": {
+      "orderId": "JonSnow-1234",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "o norte NÃO se lembra"
+      }
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:03:56.736Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:04:25.770Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:03:56.736Z",
+        "finishedAt": "2025-09-02T18:03:58.739Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:03:58.741Z",
+        "finishedAt": "2025-09-02T18:04:04.747Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:04:04.749Z",
+        "finishedAt": "2025-09-02T18:04:16.760Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:04:16.763Z",
+        "finishedAt": "2025-09-02T18:04:21.766Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:04:21.768Z",
+        "finishedAt": "2025-09-02T18:04:25.768Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:04:25.770Z",
+        "finishedAt": "2025-09-02T18:04:27.771Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:03:24.715Z",
+    "updatedAt": "2025-09-02T18:04:27.776Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b731a621c2f2c7fb07f0fc",
+    "payload": {
+      "orderId": "ABC-DEF",
+      "sku": "Go-jo",
+      "order": {
+        "caixa": "meio-a-meio"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:04:28.771Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:04:54.794Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:04:28.771Z",
+        "finishedAt": "2025-09-02T18:04:29.773Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:04:29.774Z",
+        "finishedAt": "2025-09-02T18:04:34.778Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:04:34.780Z",
+        "finishedAt": "2025-09-02T18:04:46.787Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:04:46.789Z",
+        "finishedAt": "2025-09-02T18:04:50.788Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:04:50.790Z",
+        "finishedAt": "2025-09-02T18:04:54.792Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:04:54.794Z",
+        "finishedAt": "2025-09-02T18:04:57.795Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:04:22.619Z",
+    "updatedAt": "2025-09-02T18:04:57.804Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b731c121c2f2c7fb07f13e",
+    "payload": null,
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:04:58.796Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:05:23.819Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:04:58.796Z",
+        "finishedAt": "2025-09-02T18:04:59.798Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:04:59.799Z",
+        "finishedAt": "2025-09-02T18:05:04.803Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:05:04.805Z",
+        "finishedAt": "2025-09-02T18:05:14.810Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:05:14.812Z",
+        "finishedAt": "2025-09-02T18:05:19.815Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:05:19.817Z",
+        "finishedAt": "2025-09-02T18:05:23.817Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:05:23.819Z",
+        "finishedAt": "2025-09-02T18:05:26.821Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:04:49.545Z",
+    "updatedAt": "2025-09-02T18:05:26.827Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b731db21c2f2c7fb07f183",
+    "payload": {
+      "orderId": "guilherme-001",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "meia boca"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:05:27.824Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:05:54.871Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:05:27.824Z",
+        "finishedAt": "2025-09-02T18:05:29.826Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:05:29.828Z",
+        "finishedAt": "2025-09-02T18:05:35.837Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:05:35.839Z",
+        "finishedAt": "2025-09-02T18:05:45.856Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:05:45.858Z",
+        "finishedAt": "2025-09-02T18:05:50.861Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:05:50.863Z",
+        "finishedAt": "2025-09-02T18:05:54.869Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:05:54.871Z",
+        "finishedAt": "2025-09-02T18:05:57.872Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:05:15.833Z",
+    "updatedAt": "2025-09-02T18:05:57.880Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b731e121c2f2c7fb07f194",
+    "payload": {
+      "orderId": "Júnior-07",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "asdfg"
+      }
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:05:58.873Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:06:25.919Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:05:58.873Z",
+        "finishedAt": "2025-09-02T18:06:00.875Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:06:00.877Z",
+        "finishedAt": "2025-09-02T18:06:06.886Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:06:06.888Z",
+        "finishedAt": "2025-09-02T18:06:17.903Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:06:17.904Z",
+        "finishedAt": "2025-09-02T18:06:21.911Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:06:21.912Z",
+        "finishedAt": "2025-09-02T18:06:25.917Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:06:25.919Z",
+        "finishedAt": "2025-09-02T18:06:28.919Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:05:21.861Z",
+    "updatedAt": "2025-09-02T18:06:28.924Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7320721c2f2c7fb07f1f0",
+    "payload": {
+      "orderId": "Jaime-001",
+      "sku": "KIT-03",
+      "order": {
+        "caixa": "caixa-jaime"
+      }
+    },
+    "callbackUrl": "http://chamadafake:3002/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:06:29.920Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:06:56.957Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:06:29.920Z",
+        "finishedAt": "2025-09-02T18:06:31.922Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:06:31.924Z",
+        "finishedAt": "2025-09-02T18:06:36.929Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:06:36.931Z",
+        "finishedAt": "2025-09-02T18:06:48.942Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:06:48.944Z",
+        "finishedAt": "2025-09-02T18:06:53.951Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:06:53.954Z",
+        "finishedAt": "2025-09-02T18:06:56.955Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:06:56.957Z",
+        "finishedAt": "2025-09-02T18:06:59.959Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:05:59.494Z",
+    "updatedAt": "2025-09-02T18:06:59.968Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7323721c2f2c7fb07f262",
+    "payload": {
+      "orderId": "ABC-123",
+      "sku": "KIT-01",
+      "order": {
+        "carro": "meia boca"
+      }
+    },
+    "callbackUrl": "http://fake:171/calback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:07:00.961Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:07:27.997Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:07:00.961Z",
+        "finishedAt": "2025-09-02T18:07:02.963Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:07:02.965Z",
+        "finishedAt": "2025-09-02T18:07:08.970Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:07:08.971Z",
+        "finishedAt": "2025-09-02T18:07:18.984Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:07:18.986Z",
+        "finishedAt": "2025-09-02T18:07:23.990Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:07:23.992Z",
+        "finishedAt": "2025-09-02T18:07:27.995Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:07:27.997Z",
+        "finishedAt": "2025-09-02T18:07:29.998Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:06:47.919Z",
+    "updatedAt": "2025-09-02T18:07:30.009Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7324f21c2f2c7fb07f2a0",
+    "payload": {
+      "orderId": "PedroH001",
+      "sku": "KIT-18",
+      "order": {
+        "caixa": "maravilhosa"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "COMPLETED",
+    "stage": "DONE",
+    "progress": 100,
+    "etaSeconds": 0,
+    "lockedAt": "2025-09-02T18:07:30.999Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:07:57.022Z",
+    "lastCallbackAt": null,
+    "callbackTries": 1,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:07:30.999Z",
+        "finishedAt": "2025-09-02T18:07:33.005Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:07:33.015Z",
+        "finishedAt": "2025-09-02T18:07:39.004Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:07:39.006Z",
+        "finishedAt": "2025-09-02T18:07:49.013Z"
+      },
+      {
+        "stage": "QA",
+        "startedAt": "2025-09-02T18:07:49.015Z",
+        "finishedAt": "2025-09-02T18:07:54.017Z"
+      },
+      {
+        "stage": "PACKING",
+        "startedAt": "2025-09-02T18:07:54.019Z",
+        "finishedAt": "2025-09-02T18:07:57.020Z"
+      },
+      {
+        "stage": "EXPEDITION",
+        "startedAt": "2025-09-02T18:07:57.022Z",
+        "finishedAt": "2025-09-02T18:08:00.033Z"
+      }
+    ],
+    "createdAt": "2025-09-02T18:07:11.881Z",
+    "updatedAt": "2025-09-02T18:08:00.086Z",
+    "__v": 5
+  },
+  {
+    "_id": "68b7325921c2f2c7fb07f2b8",
+    "payload": {
+      "orderId": "Felipe-005",
+      "sku": "KITkat-01",
+      "order": {
+        "caixa": "meia boca"
+      }
+    },
+    "callbackUrl": "http://fake:171/callback",
+    "status": "PROCESSING",
+    "stage": "ASSEMBLY",
+    "progress": 64,
+    "etaSeconds": 9,
+    "lockedAt": "2025-09-02T18:08:01.023Z",
+    "lockedBy": "sim-lkn5k2",
+    "stageStartedAt": "2025-09-02T18:08:08.030Z",
+    "lastCallbackAt": null,
+    "callbackTries": 0,
+    "history": [
+      {
+        "stage": "RECEIVED",
+        "startedAt": "2025-09-02T18:08:01.023Z",
+        "finishedAt": "2025-09-02T18:08:02.027Z"
+      },
+      {
+        "stage": "PICKING",
+        "startedAt": "2025-09-02T18:08:02.029Z",
+        "finishedAt": "2025-09-02T18:08:08.029Z"
+      },
+      {
+        "stage": "ASSEMBLY",
+        "startedAt": "2025-09-02T18:08:08.031Z",
+        "finishedAt": null
+      }
+    ],
+    "createdAt": "2025-09-02T18:07:21.912Z",
+    "updatedAt": "2025-09-02T18:08:17.041Z",
+    "__v": 2
+  },
+  {
+    "_id": "68b7325b21c2f2c7fb07f2be",
+    "payload": {
+      "orderId": "Json Vorhees",
+      "sku": "KIT-01",
+      "order": {
+        "caixa": "SetDate(){date = 'Friday 13th'}"
+      }
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "PENDING",
+    "stage": "RECEIVED",
+    "progress": 0,
+    "etaSeconds": null,
+    "lockedAt": null,
+    "lockedBy": null,
+    "stageStartedAt": null,
+    "lastCallbackAt": null,
+    "callbackTries": 0,
+    "history": [],
+    "createdAt": "2025-09-02T18:07:23.043Z",
+    "updatedAt": "2025-09-02T18:07:23.043Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b7326421c2f2c7fb07f2d9",
+    "payload": {
+      "orderId": "Júnior-07",
+      "sku": "KIT-07",
+      "order": {
+        "caixa": "asdfg"
+      }
+    },
+    "callbackUrl": "http://localhost:3333/callback",
+    "status": "PENDING",
+    "stage": "RECEIVED",
+    "progress": 0,
+    "etaSeconds": null,
+    "lockedAt": null,
+    "lockedBy": null,
+    "stageStartedAt": null,
+    "lastCallbackAt": null,
+    "callbackTries": 0,
+    "history": [],
+    "createdAt": "2025-09-02T18:07:32.834Z",
+    "updatedAt": "2025-09-02T18:07:32.834Z",
+    "__v": 0
+  }
+]

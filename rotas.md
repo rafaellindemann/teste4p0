@@ -1,7 +1,6 @@
-# teste4p0
-Apenas um teste temporário e passageiro sobre teorias aleatórias
-
-
+http://52.1.197.112:3000/queue/items
+get
+post
 ```
 {
   "payload": {
@@ -14,6 +13,7 @@ Apenas um teste temporário e passageiro sobre teorias aleatórias
 ```
 
 
-{
-  "id": "68b730ef21c2f2c7fb07ef58"
-}
+---
+http://52.1.197.112:3000/queue/items/{id}
+
+---
