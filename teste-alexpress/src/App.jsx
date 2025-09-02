@@ -27,8 +27,8 @@ function App() {
 
     try {
       // Fazendo a requisição POST
-      // const res = await fetch('http://98.80.66.165:3000/docs/queue/items', {
-      const res = await fetch('https://98.80.66.165:3000/queue/items', {
+      const res = await fetch('http://52.1.197.112:3000/queue/items', {
+      // const res = await fetch('https://52.1.197.112:3000/queue/items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
