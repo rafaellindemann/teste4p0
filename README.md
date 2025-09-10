@@ -45,7 +45,7 @@ Exemplo de form de post no ar: https://teste4p0.vercel.app/
 {
             "payload": {
                 "orderId": "ABC-123",
-                "caixa": {
+                "order": {
                     "codigoProduto": 1,
                     "bloco1": {
                         "lamina1": 1,
