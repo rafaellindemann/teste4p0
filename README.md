@@ -48,6 +48,7 @@ Exemplo de form de post no ar: https://teste4p0.vercel.app/
                 "order": {
                     "codigoProduto": 1,
                     "bloco1": {
+		                    "cor": 1,
                         "lamina1": 1,
                         "lamina2": 1,
                         "lamina3": 1,
@@ -56,6 +57,7 @@ Exemplo de form de post no ar: https://teste4p0.vercel.app/
                         "padrao3": "1"
                     },
                     "bloco2": {
+		                    "cor": 1,
                         "lamina1": 1,
                         "lamina2": 1,
                         "lamina3": 1,
@@ -64,6 +66,7 @@ Exemplo de form de post no ar: https://teste4p0.vercel.app/
                         "padrao3": "1"
                     },
                     "bloco3": {
+		                    "cor": 1,
                         "lamina1": 1,
                         "lamina2": 1,
                         "lamina3": 1,
